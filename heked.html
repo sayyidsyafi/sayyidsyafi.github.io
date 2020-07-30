@@ -1,0 +1,120 @@
+
+
+<html>
+ <head>
+ <meta property="og:image" content="https://i.ibb.co/m0rfJqy/IMG-20200514-115052.jpg">
+	<meta name="keywords" content="ZxerOne"> 
+	<meta name="og:title" content="Hacked by ZxerOne">
+	<meta http-equiv="cache-control" content="index,cache"> 
+	<meta http-equiv="pragma" content="index,cache"> 
+ <title>Hacked by ZxerOne</title> <script> 
+ alert (document.title) 
+ </script> 
+ <link href="https://fonts.googleapis.com/css?family=Courier New" rel="stylesheet">  
+ <link href="https://fonts.googleapis.com/css?family=Courier" rel="stylesheet">  
+ <style>
+  .footer{ 
+  font-family: "Courier New";
+}
+  html { 
+  background: black; 
+  color: white;
+} 
+  div {
+  width: 650;
+  bottom: -500px;
+  background-color: inherit;
+  position: relative;
+  font-size: 30;
+}
+  h2 {
+  font-size: 25px;
+  color: #eaeaea;
+  font-family: Courier;
+}
+img {
+  width: 255px;
+  height: 256px;
+}
+</style>
+</head> 
+<body>
+<!--<script src='https://pastebin.com/raw/8v6kQfn5' type='text/javascript'/></script>-->
+<table height="100%" width="100%"> 
+<td align="center"> 
+<br>
+<br> 
+<a target="_blank"><img src="https://i.ibb.co/4T6bjQ0/hello-brown-13.png" alt="hello-brown-13" border="0"></a>
+ <br><br> <br><br> <br><br>  
+<script>
+ farbbibliothek = new Array(); 
+ farbbibliothek[0] = new Array("#FF0000","#FF4000","#FF8000","#FFC000","#FFFF00","#C0FF00","#80FF00","#40FF00","#00FF00","#00FF40","#00FF80","#00FFC0","#00FFFF","#00C0FF","#0080FF","#0040FF","#0000FF","#4000FF","#8000FF","#C000FF","#FF00FF","#FF00C0","#FF0080","#FF0040"); 
+ farbbibliothek[1] = new Array("#FF0000","#FF4000","#FF8000","#FFC000","#FFFF00","#C0FF00","#80FF00","#40FF00","#00FF00","#00FF40","#00FF80","#00FFC0","#00FFFF","#00C0FF","#0080FF","#0040FF","#0000FF","#4000FF","#8000FF","#C000FF","#FF00FF","#FF00C0","#FF0080","#FF0040"); 
+ farbbibliothek[2] = new Array("#FF0000","#FF4000","#FF8000","#FFC000","#FFFF00","#C0FF00","#80FF00","#40FF00","#00FF00","#00FF40","#00FF80","#00FFC0","#00FFFF","#00C0FF","#0080FF","#0040FF","#0000FF","#4000FF","#8000FF","#C000FF","#FF00FF","#FF00C0","#FF0080","#FF0040"); 
+ farbbibliothek[3] = new Array("#FF0000","#FF4000","#FF8000","#FFC000","#FFFF00","#C0FF00","#80FF00","#40FF00","#00FF00","#00FF40","#00FF80","#00FFC0","#00FFFF","#00C0FF","#0080FF","#0040FF","#0000FF","#4000FF","#8000FF","#C000FF","#FF00FF","#FF00C0","#FF0080","#FF0040"); 
+ farbbibliothek[4] = new Array("#FF0000","#FF4000","#FF8000","#FFC000","#FFFF00","#C0FF00","#80FF00","#40FF00","#00FF00","#00FF40","#00FF80","#00FFC0","#00FFFF","#00C0FF","#0080FF","#0040FF","#0000FF","#4000FF","#8000FF","#C000FF","#FF00FF","#FF00C0","#FF0080","#FF0040"); 
+ farbbibliothek[5] = new Array("#FF0000","#FF4000","#FF8000","#FFC000","#FFFF00","#C0FF00","#80FF00","#40FF00","#00FF00","#00FF40","#00FF80","#00FFC0","#00FFFF","#00C0FF","#0080FF","#0040FF","#0000FF","#4000FF","#8000FF","#C000FF","#FF00FF","#FF00C0","#FF0080","#FF0040"); 
+ farbbibliothek[6] = new Array("#FF0000","#FF4000","#FF8000","#FFC000","#FFFF00","#C0FF00","#80FF00","#40FF00","#00FF00","#00FF40","#00FF80","#00FFC0","#00FFFF","#00C0FF","#0080FF","#0040FF","#0000FF","#4000FF","#8000FF","#C000FF","#FF00FF","#FF00C0","#FF0080","#FF0040"); 
+ farben = farbbibliothek[4];
+ function farbschrift() { 
+  for(var i=0 ; i<Buchstabe.length; i++) { 
+  document.all["a"+i].style.color=farben[i]; 
+  }
+  farbverlauf(); 
+ }
+
+ function string2array(text) { 
+  Buchstabe = new Array(); 
+  while(farben.length<text.length) { 
+    farben = farben.concat(farben); 
+  }
+
+  k=0; 
+  while(k<=text.length) { 
+    Buchstabe[k] = text.charAt(k); 
+    k++; 
+  } 
+ } 
+
+ function divserzeugen() { 
+  for(var i=0 ; i<Buchstabe.length; i++) { 
+    document.write("<b><i><font face='Courier New' size='90'><span id='a"+i+"' class='a"+i+"'>"+Buchstabe[i] + "</span></font></i></b>"); 
+  } 
+  farbschrift(); 
+ } 
+
+ var a=1; 
+ function farbverlauf() { 
+  for(var i=0 ; i<farben.length; i++) { 
+    farben[i-1]=farben[i]; 
+  } 
+  farben[farben.length-1]=farben[-1]; 
+  setTimeout("farbschrift()",30); 
+ }
+
+ // Zu Demonstrationszwecken***************** 
+ 
+ var farbsatz=1; 
+ 
+ function farbtauscher() { 
+  farben = farbbibliothek[farbsatz]; 
+  while(farben.length<text.length) { 
+    farben = farben.concat(farben); 
+  }
+
+  farbsatz=Math.floor(Math.random()*(farbbibliothek.length-0.0001)); 
+ } 
+ 
+ setInterval("farbtauscher()",5000); 
+ text= "ZxerOne - PhobiaXploit"; 
+ string2array(text); 
+ divserzeugen();
+   
+javascript:startTyping(text, 70, "textDestination"); 
+</script>
+<br><br><br>
+<i>
+<h2>Suatu saat nanti pasti kan bahagia, Aku dan kamu akan menjadi kita, Hingga sampai nanti usia kita tua, Sampai akhirnya kita tutup mata, Sampai berhentinya nafas kita</h2>
+</i>
+</body>
+</html>
